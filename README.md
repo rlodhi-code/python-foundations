@@ -1,4 +1,4 @@
-# Python Foundations Lab
+# Python Foundations
 
 A consolidated collection of foundational Python projects and hands-on exercises.
 
