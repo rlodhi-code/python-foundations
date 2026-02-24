@@ -54,7 +54,7 @@ Projects are organized into subfolders by topic or functionality.
 
 ```
 
-python-foundations-lab/
+python-foundations/
 │
 ├── games/
 ├── gui-apps/
@@ -66,6 +66,33 @@ python-foundations-lab/
 ```
 
 Structure may evolve as projects are refined or refactored.
+Here is proposed structured
+python-foundations/
+│
+├── 01_data_processing/
+│   ├── weather-data-analysis/
+│   └── us-states-game/
+│
+├── 02_cli_applications/
+│   ├── nato-alphabet-generator/
+│   ├── password-manager-v1/
+│   └── password-manager-v2/
+│
+├── 03_api_projects/
+│   └── kanye-quotes-api/
+│
+├── 04_gui_applications/
+│   ├── pomodoro-timer/
+│   ├── flash-cards-app/
+│   └── tkinter-exercises/
+│
+├── 05_games/
+│   ├── snake-game/
+│   ├── pong-game/
+│   ├── turtle-crossing/
+│   └── turtle-shapes/
+│
+└── README.md
 
 ---
 
