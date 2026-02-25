@@ -53,20 +53,8 @@ Projects are organized into subfolders by topic or functionality.
 ## 🏗 Repository Structure
 
 ```
-
-python-foundations/
-│
-├── games/
-├── gui-apps/
-├── api-projects/
-├── utilities/
-├── data-processing/
-└── README.md
-
-```
-
 Structure may evolve as projects are refined or refactored.
-Here is proposed structured
+Here is how it is currently structured
 python-foundations/
 │
 ├── 01_data_processing/
