@@ -1,5 +1,5 @@
 # 🔤 NATO Phonetic Alphabet Generator  
-A simple command‑line application that converts any word into its **NATO phonetic alphabet** equivalent. This project demonstrates how to read CSV data with **pandas**, build dictionaries efficiently, handle user input, and manage errors gracefully.
+A simple command‑line application that converts any word into its **NATO phonetic alphabet** equivalent. This project demonstrates how to read CSV data with **pandas**, build dictionaries efficiently, handle user input, and manage errors gracefully. It also includes a reproducible Python environment managed with **Poetry**.
 
 ---
 
@@ -11,6 +11,7 @@ This CLI tool takes a user‑entered word and translates each letter into its co
 - Building dictionaries using dictionary comprehensions  
 - Handling invalid input with exceptions  
 - Recursively prompting the user until valid input is provided  
+- Managing dependencies using Poetry  
 
 ---
 
@@ -20,6 +21,8 @@ This CLI tool takes a user‑entered word and translates each letter into its co
 |------|-------------|
 | `main.py` | Main script that loads the NATO alphabet and generates phonetic translations. |
 | `nato_phonetic_alphabet.csv` | Dataset containing letters A–Z and their NATO code words. |
+| `pyproject.toml` | Poetry configuration file defining project metadata and dependencies. |
+| `poetry.lock` | Lock file ensuring reproducible installs across environments. |
 
 ---
 
@@ -101,17 +104,29 @@ except KeyError:
 
 ## ▶️ Running the Application
 
-### **Requirements**
-- Python 3.x  
-- `pandas`  
+### **Option 1 — Run with Poetry (recommended)**  
+This project includes a full Poetry environment for reproducibility.
 
-Install pandas:
+#### **Install dependencies**
+```bash
+poetry install
+```
 
+#### **Run the script**
+```bash
+poetry run python main.py
+```
+
+---
+
+### **Option 2 — Run with system Python**
+
+#### **Install pandas**
 ```bash
 pip install pandas
 ```
 
-### **Run the script**
+#### **Run the script**
 ```bash
 python main.py
 ```
@@ -125,6 +140,35 @@ Enter a word: Code
 
 ---
 
+## 📦 Dependency Management (Poetry)
+
+### **pyproject.toml**
+Defines the project metadata and dependencies:
+
+```toml
+[tool.poetry]
+name = "nato-alphabet-end"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.0.5"
+```
+
+### **poetry.lock**
+Ensures consistent versions of:
+- pandas  
+- numpy  
+- python-dateutil  
+- pytz  
+- six  
+
+This guarantees that anyone installing the project gets the exact same environment.
+
+---
+
 ## 🎯 Learning Objectives
 
 This project reinforces:
@@ -134,7 +178,9 @@ This project reinforces:
 - Handling exceptions  
 - Building simple CLI applications  
 - Recursion for repeated user prompts  
+- Managing Python dependencies with Poetry  
 
 These skills form a strong foundation for more advanced data processing and command‑line tools.
 
 ---
+
