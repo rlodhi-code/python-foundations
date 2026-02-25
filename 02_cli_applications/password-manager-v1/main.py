@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter
 from tkinter import messagebox
 from random import choice, randint, shuffle
 from tkinter import *
