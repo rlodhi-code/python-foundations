@@ -15,7 +15,7 @@ The Pomodoro technique improves focus by breaking work into timed intervals. Thi
 - …  
 - Long break after every 4 work sessions  
 
-Your version includes adjustable durations for testing and a session‑completion indicator.
+This version includes adjustable durations for testing and a session‑completion indicator.
 
 ---
 
