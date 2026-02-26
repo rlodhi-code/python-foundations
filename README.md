@@ -2,7 +2,7 @@
 
 A consolidated collection of foundational Python projects and hands-on exercises.
 
-This repository contains small applications and practice projects completed during structured Python training. Each project focuses on strengthening core programming concepts, problem-solving, and application-building fundamentals.
+This repository contains small applications. Each project focuses on strengthening core programming concepts, problem-solving, and application-building fundamentals.
 
 ---
 
