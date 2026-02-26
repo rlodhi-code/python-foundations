@@ -54,7 +54,8 @@ Projects are organized into subfolders by topic or functionality.
 
 ```
 Structure may evolve as projects are refined or refactored.
-Here is how it is currently structured
+Here is how it is currently structured.
+
 python-foundations/
 │
 ├── 01_data_processing/
