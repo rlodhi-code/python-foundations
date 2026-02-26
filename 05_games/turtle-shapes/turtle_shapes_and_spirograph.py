@@ -23,7 +23,7 @@ import random
 # Screen setup
 # ----------------------------
 screen = turtle.Screen()
-screen.title("Angela Yu - Turtle Shapes")
+screen.title("Turtle Shapes")
 screen.colormode(255)
 screen.bgcolor("white")
 
@@ -32,7 +32,7 @@ tim.speed(0)
 tim.pensize(2)
 
 # ----------------------------
-# Color palette (Angela Yu style)
+# Color palette
 # ----------------------------
 color_list = [
     (239, 71, 111),
@@ -64,14 +64,14 @@ def draw_shape(num_sides, size):
         tim.right(angle)
 
 # ----------------------------
-# Draw multiple shapes (Day 18 classic)
+# Draw multiple shapes 
 # ----------------------------
 def draw_all_shapes():
     for sides in range(3, 11):  # triangle to decagon
         draw_shape(sides, 100)
 
 # ----------------------------
-# Spirograph (also Day 18)
+# Spirograph 
 # ----------------------------
 def draw_spirograph(radius, gap):
     for _ in range(int(360 / gap)):
