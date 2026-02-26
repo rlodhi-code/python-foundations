@@ -2,7 +2,7 @@
 
 A consolidated collection of foundational Python projects and hands-on exercises.
 
-This repository contains small applications and practice projects completed during structured Python training. Each project focuses on strengthening core programming concepts, problem-solving, and application-building fundamentals.
+This repository contains small applications. Each project focuses on strengthening core programming concepts, problem-solving, and application-building fundamentals.
 
 ---
 
@@ -54,7 +54,8 @@ Projects are organized into subfolders by topic or functionality.
 
 ```
 Structure may evolve as projects are refined or refactored.
-Here is how it is currently structured
+Here is how it is currently structured.
+
 python-foundations/
 │
 ├── 01_data_processing/
