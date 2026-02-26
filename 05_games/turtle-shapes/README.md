@@ -9,7 +9,7 @@ A collection of Turtle‑graphics drawing exercises that generate geometric shap
 The folder contains two drawing programs:
 
 - **drawshapes_param_sides.py** — draws polygons from triangle to decagon using a shared drawing function.
-- **turtle_shapes_and_spirograph.py** — draws a full set of polygons and a spirograph pattern using a color palette inspired by Angela Yu’s Day 18 Turtle module exercises.
+- **turtle_shapes_and_spirograph.py** — draws a full set of polygons and a spirograph pattern using a color palette inspired.
 
 Both scripts use:
 
